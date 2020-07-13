@@ -8,6 +8,34 @@
 <body>
 
     <div class="container">
+
+        <!--Pop-up Form-->
+        <div class="pop-up">
+            <form action="#" class="callback-form">
+                <span class="callback-form__caption">
+                    Оставьте свои данные, мы вам перезвоним
+                </span>
+
+                <input class="callback-form__input" type="text" placeholder="Имя">
+                <input class="callback-form__input" type="phone" placeholder="Телефон">
+                <input class="callback-form__input" type="email" placeholder="Почта">
+
+                <textarea class="callback-form__textarea">
+                    Комментарии
+                </textarea>
+
+                <label>
+                    <input class="callback-form__checkbox" type="checkbox">
+                    <span class="callback-form__checkbox-text">
+                        Соглашаюсь с рассылкой и принимаю 
+                        <a class="callback-form__license" href="#">Условия договора</a>
+                    </span>
+                </label>
+
+                <button class="callback-form__btn">Отправить</button>                
+            </form>
+        </div>
+
         <!--Top Menu-->
         <div class="top-menu">
             <div class="top-menu__inner-container">
@@ -16,15 +44,7 @@
                 </div>
                 <div class="top-menu__button-cotainer mobile">
                     <button class="top-menu__button">
-                        <div class="top-menu__button-line">
-                            <img src="images/header/button-line.jpg" alt="">
-                        </div>
-                        <div class="top-menu__button-line">
-                            <img src="images/header/button-line.jpg" alt="">
-                        </div>
-                        <div class="top-menu__button-line">
-                            <img src="images/header/button-line.jpg" alt="">
-                        </div>
+                       <!--Линии css-->     
                     </button>
                 </div>
             </div>
@@ -34,10 +54,10 @@
                     <a class="nav__link" href="#">Студия</a>
                 </div>
                 <div class="nav__item">
-                    <a class="nav__link" href="#">Студия</a>
+                    <a class="nav__link" href="#">Портфолио</a>
                 </div>
                 <div class="nav__item">
-                    <a class="nav__link" href="#">Студия</a>
+                    <a class="nav__link" href="#">Контакты</a>
                 </div>
                 <div class="nav__contacts">
                     <div class="nav__contacts-email">
