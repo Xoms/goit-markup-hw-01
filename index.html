@@ -9,8 +9,8 @@
 
     <div class="container">
 
-        <!--Pop-up Form-->
-        <div class="pop-up">
+        <!--Modal Form-->
+        <div class="modal">
             <form action="#" class="callback-form">
                 <span class="callback-form__caption">
                     Оставьте свои данные, мы вам перезвоним
@@ -37,61 +37,68 @@
         </div>
 
         <!--Top Menu-->
-        <div class="top-menu">
-            <div class="top-menu__inner-container">
-                <h1 class="logo">
-                    <span class=logo__first-word>Web</span> Studio
-                </h1>
-                <div class="top-menu__button-cotainer mobile">
-                    <button class="top-menu__button">
-                       <!--Линии css-->     
-                    </button>
-                </div>
-            </div>
+        <header class="top-menu">           
 
             <nav class="nav">
-                <div class="nav__item">
-                    <a class="nav__link" href="index.html">Студия</a>
-                </div>
-                <div class="nav__item">
-                    <a class="nav__link" href="pages/portfolio.html">Портфолио</a>
-                </div>
-                <div class="nav__item">
-                    <a class="nav__link" href="#contacts">Контакты</a>
-                </div>
-                <div class="nav__contacts">
-                    <div class="nav__contacts-email">
+                <h1 class="logo">
+                    <a class="nav__link" href="/">
+                        <span class=logo__first-word>Web</span> Studio
+                     </a>
+                </h1>               
+             
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link" href="index.html">Студия</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="pages/portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#contacts">Контакты</a>
+                    </li>
+                </ul>
+                
+                <ul class="nav__contacts">
+                    <li class="nav__contacts-email"> 
                         <img src="images/icons/envelope.svg" alt="envelope">
                         <a href="mailto:info@devstudio.com">info@devstudio.com</a> 
-                    </div>
-                    <div class="nav__contacts-phone">
+                    </li>
+                    <li class="nav__contacts-phone">
                         <img src="images/icons/smartphone.svg" alt="smartphone">
                         <a href="tel:+380961111111">+38 096 111 11 11</a>
-                    </div>
-                </div>
+                    </li>
+                </ul>                
             </nav>
-        </div>        
-        <!--Top Menu end-->
 
-        <!--Header -->
-        <header class="header">            
-            <div class="header__inner-content">
-                <div class="header__image">
-                    <img src="images/header/header-img.jpg" alt="startup">
-                </div>
-                <h1 class="header__text-container">
-                    Эффективные решения для вашего бизнеса
-                </h1>
-                <div class="header__button-container">
-                    <button class="header__button">
-                        Заказать услугу
-                    </button>
-                </div>
+            <div class="top-menu__button-cotainer mobile">
+                <button class="top-menu__button">
+                    <!--Линии css-->     
+                </button>
             </div>
-        </header>
+        </header>        
         <!--Header end-->
 
+        
+
         <main>
+            <!--Hero section -->
+            <section class="hero">            
+                <div class="hero__inner-content">
+                    <div class="hero__image">
+                        <img src="images/header/header-img.jpg" alt="startup">
+                    </div>
+                    <h1 class="hero__text-container">
+                        Эффективные решения для вашего бизнеса
+                    </h1>
+                    <div class="hero__button-container">
+                        <button class="hero__button">
+                            Заказать услугу
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <!--Hero end-->
+
             <!--Features Section-->
             <section class="features">                
                 <!--Features item 1-->
