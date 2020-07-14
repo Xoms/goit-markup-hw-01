@@ -1,5 +1,5 @@
 # goit-markup-hw-01
-http:\\goit-markup.oshabliy.heliohost.org
+http://goit-hw1.oshabliy.heliohost.org
 
  - Создай репозиторий goit-markup-hw-01.
  - Переведи макет страницы Студия в HTML-разметку, без CSS оформления. Форму подписки в футере размечать не нужно.
